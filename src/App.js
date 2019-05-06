@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import Clock from './components/Clock';
+import Toggle from './components/Toggle';
+import LoginControl from './components/LoginControl';
+import WarningBanner from './components/WarningBanner';
+import NumberList from './components/NumberList';
+import NameForm from './components/NameForm';
+import EssayForm from './components/EssayForm';
+import FlavorForm from './components/FlavorForm';
+import Reservation from './components/Reservation';
+import BoilingVerdict from './components/BoilingVerdict';
+import Calculator from './components/Calculator';
+import FancyBorder from './components/FancyBorder';
 import './App.css';
+// import { tsPropertySignature } from '@babel/types';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Clock />
+      <Toggle />
+      <LoginControl />
+      <WarningBanner />
+      <NumberList 
+        numbers = {[1,2,3,4,5]}
+      />
+      <NameForm />
+      <EssayForm />
+      <FlavorForm />
+      <Reservation /> 
+      <BoilingVerdict /> */}
+      <Calculator />
+      <FancyBorder />
     </div>
   );
 }
